@@ -11,28 +11,28 @@ RUN apt-get update && apt-get install --autoremove --no-install-recommends --sho
 	libsdl1.2-dev pylint3 xterm python3-subunit mesa-common-dev zstd liblz4-tool libncurses5-dev
 
 #additional libraries
-RUN apt-get update && apt-get install --autoremove --no-install-recommends --show-progress -y file
+RUN apt-get update && apt-get install --autoremove --no-install-recommends --show-progress -y file tilde vim
 
 RUN pip3 install gnureadline
 
 RUN dpkg-reconfigure --frontend noninteractive tzdata
 
-RUN groupadd -g 1000 dev \
-            && useradd -u 1000 -g dev -d /home/dev dev \
-            && mkdir /home/dev \
-            && chown -R dev:dev /home/dev
+RUN groupadd -g 1000 pokybuild \
+            && useradd -u 1000 -g pokybuild -d /home/pokybuild pokybuild \
+            && mkdir /home/pokybuild \
+            && chown -R pokybuild:pokybuild /home/pokybuild
 
 RUN locale-gen en_US.UTF-8
 
 ENV LANG en_US.UTF-8
 
-USER dev
+USER pokybuild
 
-WORKDIR /home/dev
+WORKDIR /home/pokybuild
 
-RUN git clone -b kirkstone git://git.yoctoproject.org/poky
-RUN cd poky
-RUN git clone git://git.yoctoproject.org/meta-raspberrypi
+#RUN git clone -b kirkstone git://git.yoctoproject.org/poky
+#RUN cd poky
+#RUN git clone git://git.yoctoproject.org/meta-raspberrypi
 #RUN source oe-init-build-env
 #RUN bitbake-layers add-layer ../meta-raspberrypi #need to re-init layers?
 #RUN bitbake core-image-minimal #need to build specific raspi image instead?
