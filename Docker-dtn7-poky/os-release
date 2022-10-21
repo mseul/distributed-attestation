@@ -1,0 +1,5 @@
+ID=nodistro
+NAME="OpenEmbedded"
+VERSION="nodistro.0"
+VERSION_ID=nodistro.0
+PRETTY_NAME="OpenEmbedded nodistro.0"

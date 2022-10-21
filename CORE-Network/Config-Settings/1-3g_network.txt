@@ -1,0 +1,7 @@
+link3G = LinkOptions(
+    bandwidth=1500000, #bps
+    delay=50000, #microseconds (us)
+    dup=0, #duplication
+    loss=5, #loss
+    jitter=10000, #jitter microseconds (us)
+)

@@ -1,0 +1,47 @@
+linkFasterLossy30 = LinkOptions(
+    bandwidth=1500000, #bps
+    delay=10000, #microseconds (us)
+    dup=0, #duplication
+    loss=30, #loss
+    jitter=5000, #jitter microseconds (us)
+)
+
+linkFasterLossy50 = LinkOptions(
+    bandwidth=1500000, #bps
+    delay=10000, #microseconds (us)
+    dup=0, #duplication
+    loss=50, #loss
+    jitter=5000, #jitter microseconds (us)
+)
+
+linkFasterLossy60 = LinkOptions(
+    bandwidth=1500000, #bps
+    delay=10000, #microseconds (us)
+    dup=0, #duplication
+    loss=60, #loss
+    jitter=5000, #jitter microseconds (us)
+)
+
+linkFasterLossy = LinkOptions(
+    bandwidth=1500000, #bps
+    delay=10000, #microseconds (us)
+    dup=0, #duplication
+    loss=70, #loss
+    jitter=5000, #jitter microseconds (us)
+)
+
+linkFasterLossy80 = LinkOptions(
+    bandwidth=1500000, #bps
+    delay=10000, #microseconds (us)
+    dup=0, #duplication
+    loss=80, #loss
+    jitter=5000, #jitter microseconds (us)
+)
+
+linkFasterLossy90 = LinkOptions(
+    bandwidth=1500000, #bps
+    delay=10000, #microseconds (us)
+    dup=0, #duplication
+    loss=70, #loss
+    jitter=5000, #jitter microseconds (us)
+)

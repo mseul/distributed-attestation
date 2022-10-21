@@ -1,0 +1,1 @@
+linkLoopback = None #Removes any constraints

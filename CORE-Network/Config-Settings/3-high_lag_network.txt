@@ -1,0 +1,14 @@
+link60sec = LinkOptions(
+    bandwidth=2000000, #bps
+    delay=60000000, #microseconds (us)
+    dup=0, #duplication
+    loss=0, #loss
+    jitter=5000000, #jitter microseconds (us)
+)
+link15sec = LinkOptions(
+    bandwidth=2000000, #bps
+    delay=15000000, #microseconds (us)
+    dup=0, #duplication
+    loss=0, #loss
+    jitter=1000000, #jitter microseconds (us)
+)
