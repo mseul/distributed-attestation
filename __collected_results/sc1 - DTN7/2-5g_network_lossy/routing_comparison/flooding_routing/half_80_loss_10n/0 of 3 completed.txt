@@ -1,0 +1,2 @@
+Rest stalled at 60% completion, can take hours to reach 80%
+Reliable nodes always report 100%
