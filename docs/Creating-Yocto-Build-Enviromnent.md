@@ -195,16 +195,22 @@ core-image-minimal-raspberrypi4-64.rootfs.tar.bz2
 ### Yocto
 
 [Building Yocto](https://www.yoctoproject.org/software-overview/)
+
 [Customizing Yocto for Hardware](https://docs.yoctoproject.org/brief-yoctoprojectqs/index.html#customizing-your-build-for-specific-hardware)
+
 [Yocto Build Overview](https://docs.yoctoproject.org/overview-manual/concepts.html#images)
+
 [Yocto Tasks Cheatsheet](https://docs.yoctoproject.org/dev-manual/common-tasks.html)
 
 ### RaspberryPi @ Yocto
 
 [RaspberryPi Layer Documentation](https://meta-raspberrypi.readthedocs.io/en/latest/readme.html)
+
 [RaspberryPi Layer Repo for Kirkstone](https://git.yoctoproject.org/meta-raspberrypi/log/?h=kirkstone)
 
 ### OpenSCAP & Yocto
+
 [Security/Compliance Layer](https://git.yoctoproject.org/meta-security/tree/meta-security-compliance/README)
+
 [WRLinux OpenSCAP Layer Archive](https://web.archive.org/web/20210923140708/https://static.open-scap.org/ssg-guides/ssg-wrlinux8-guide-basic-embedded.html)
 

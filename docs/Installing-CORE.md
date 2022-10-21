@@ -173,9 +173,13 @@ These can be 1:1 replaced with "Podman" or an alias / shim shell file can be use
 ## Links
 
 [CORE Main Page](https://coreemu.github.io/core/)
+
 [CORE Github Repo & Source](https://github.com/coreemu/core)
+
 [CORE Install Steps](https://coreemu.github.io/core/install.html)
+
 [CORE Docker Support](https://coreemu.github.io/core/docker.html)
+
 [CORE Python API](https://coreemu.github.io/core/python.html)
 
 

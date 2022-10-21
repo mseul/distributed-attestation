@@ -43,6 +43,10 @@ None of the components have restrictive or commerical licenses, though validatin
 ## References and Attribution
 
 [openSCAP by Red Hat, Inc.](https://github.com/OpenSCAP/openscap)
+
 [Yocto / Poky, Yocto Project and The Linux Foundation](https://www.yoctoproject.org/software-overview/)
+
 [CORE, The Boeing Corporation](https://coreemu.github.io/core/)
+
 [DTN7, L. Baumgärtner,  J. Höchst,  T. {Meuser](https://github.com/dtn7/dtn7-rs/tree/v0.18.1/core/dtn7)
+
